@@ -7,7 +7,7 @@ pub enum ImageFormat {
     BMP(Bitmap),
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Image {
     pub width: u32,
     pub height: u32,
